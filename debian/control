@@ -1,0 +1,12 @@
+Source: ros-crystal-rqt-top
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake, ros-crystal-ros-workspace
+Homepage: http://wiki.ros.org/rqt_top
+Standards-Version: 3.9.2
+
+Package: ros-crystal-rqt-top
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-psutil, ros-crystal-python-qt-binding (>= 0.2.19), ros-crystal-rclpy, ros-crystal-rqt-gui, ros-crystal-rqt-gui-py, ros-crystal-ros-workspace
+Description: RQT plugin for monitoring ROS processes.
