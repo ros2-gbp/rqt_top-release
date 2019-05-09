@@ -1,0 +1,12 @@
+Source: ros-dashing-rqt-top
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: http://wiki.ros.org/rqt_top
+Standards-Version: 3.9.2
+
+Package: ros-dashing-rqt-top
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-psutil, ros-dashing-python-qt-binding (>= 0.2.19), ros-dashing-rclpy, ros-dashing-rqt-gui, ros-dashing-rqt-gui-py, ros-dashing-ros-workspace
+Description: RQT plugin for monitoring ROS processes.
