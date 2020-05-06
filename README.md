@@ -1,3 +1,26 @@
+## rqt_top (foxy) - 1.0.0-1
+
+The packages in the `rqt_top` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy -t foxy rqt_top` on `Wed, 06 May 2020 18:05:05 -0000`
+
+The `rqt_top` package was released.
+
+Version of package(s) in repository `rqt_top`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_top.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.18`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_top (eloquent) - 1.0.0-1
 
 The packages in the `rqt_top` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent rqt_top` on `Thu, 03 Oct 2019 21:52:42 -0000`
