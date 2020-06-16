@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-top
+Section: misc
+Priority: optional
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: http://wiki.ros.org/rqt_top
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-top
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-psutil, ros-rolling-python-qt-binding (>= 0.2.19), ros-rolling-rclpy, ros-rolling-rqt-gui, ros-rolling-rqt-gui-py, ros-rolling-ros-workspace
+Description: RQT plugin for monitoring ROS processes.
