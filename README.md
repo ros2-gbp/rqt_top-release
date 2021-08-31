@@ -1,3 +1,26 @@
+## rqt_top (galactic) - 1.0.2-1
+
+The packages in the `rqt_top` repository were released into the `galactic` distro by running `/usr/bin/bloom-release -r galactic rqt_top` on `Tue, 31 Aug 2021 23:46:18 -0000`
+
+The `rqt_top` package was released.
+
+Version of package(s) in repository `rqt_top`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_top.git
+- release repository: https://github.com/ros2-gbp/rqt_top-release.git
+- rosdistro version: `1.0.1-1`
+- old version: `1.0.1-1`
+- new version: `1.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rqt_top (rolling) - 1.0.2-1
 
 The packages in the `rqt_top` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling rqt_top` on `Tue, 31 Aug 2021 23:42:20 -0000`
